@@ -1,0 +1,38 @@
+# Urban Waddle Bot - MT5 Demo Account Configuration Template
+# Copy this file to .env and fill in your actual MT5 demo account details
+
+# Exchange Configuration
+EXCHANGE_TYPE=mt5
+EXCHANGE_NAME=mt5
+
+# MT5 Demo Account Credentials
+# Get these from your MT5 platform
+MT5_ACCOUNT=12345678
+MT5_PASSWORD=your_demo_password
+MT5_SERVER=MetaQuotes-Demo
+
+# Trading Configuration
+BOT_MODE=paper
+DEFAULT_SYMBOL=EURUSD
+DEFAULT_TIMEFRAME=1h
+INITIAL_CAPITAL=10000.0
+
+# Risk Management
+MAX_RISK_PER_TRADE=0.02
+MAX_POSITIONS=5
+MAX_DRAWDOWN=0.05
+
+# Notifications (Optional)
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_CHAT_ID=
+DISCORD_WEBHOOK_URL=
+
+# Database
+DATABASE_URL=sqlite:///data/trading_bot.db
+
+# Logging
+LOG_LEVEL=INFO
+LOG_FILE=logs/trading_bot.log
+
+# Dashboard
+DASHBOARD_PORT=8501
